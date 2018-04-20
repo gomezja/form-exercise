@@ -3,13 +3,76 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Button Exercise</title>
+    <title>Form Exercise</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 </head>
 <body>
+    <form action="results.php" method="get">
+        <h2>Customer Info</h2>
 
+        <section class="customer-info">
+            <div>
+                <label for="choice-one">Highest Education Level:</label>
+                <select id="choice-one">
+                    <option value="0">option 0</option>
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>        
+                    <option value="3">option 3</option>    
+                    <option value="4">option 4</option>    
+                </select>
+            </div>
+
+            <div>
+                <label for="choice-two">Sex:</label>
+                <select id="choice-two">
+                    <option value="0">option 0</option>
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>        
+                    <option value="3">option 3</option>    
+                    <option value="4">option 4</option>    
+                </select>
+            </div>
+
+            <div>
+                <label for="choice-three">Marital Status:</label>
+                <select id="choice-three">
+                    <option value="0">option 0</option>
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>        
+                    <option value="3">option 3</option>    
+                    <option value="4">option 4</option>    
+                </select>
+            </div>
+
+            <div>
+                <label for="choice-four">Age:</label>
+                <select id="choice-four">
+                    <option value="0">option 0</option>
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>        
+                    <option value="3">option 3</option>    
+                    <option value="4">option 4</option>    
+                </select>
+            </div>
+
+            <div>
+                <label for="choice-five">Payment Default on 7th Month:</label>
+                <select id="choice-five">
+                    <option value="0">option 0</option>
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>        
+                    <option value="3">option 3</option>    
+                    <option value="4">option 4</option>    
+                </select>
+            </div>
+
+            <div class="text-center">
+                <input type="Submit" value="Submit">
+            </div>
+        </section>
+    </form>
 </body>
 </html>
